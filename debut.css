@@ -1,0 +1,137 @@
+html{
+    background-color:black;
+}
+body #niv1
+{
+width:900px;
+margin:auto;
+box-shadow:0px 0px 5px gray;
+background-color:rgba(255,205,155,0.7);
+padding:20px;
+color:white;
+font-family:"century gothic",verdana,sans-serif;
+}
+#img1{
+    width:180px;
+    vertical-align: top;
+    height:150px;
+}
+header div{
+    display:inline-block;
+    width:auto;
+}
+#img2{
+    display:inline-block;
+width:715px;
+vertical-align: top;
+height:200px;
+}
+header nav
+{
+margin-top:-25px;
+text-align:right;
+background-color:greenyellow;
+}
+nav li
+{
+    display:inline-block;
+    margin-left:40px;
+    text-transform: uppercase;
+    font-size:20px;
+}
+li a{
+    color:white;
+    text-decoration:none;
+}
+li a:hover{
+    background-color:red;
+    text-decoration:overline;
+    border-bottom:1px solid white;
+}
+li a:active{
+    background-color:black;
+    text-decoration:overline;
+    border-bottom:1px solid white;
+}
+article #p1{
+    width:580px;
+    display:inline-block;
+    text-align:justify;
+}
+article #p2{
+    text-align:justify;
+}
+aside{border:1px solid ;
+    display:inline-block;
+    width:260px;
+    margin-left:50px;
+    vertical-align: top;
+    background-color:greenyellow;
+    border-radius:15px;
+    box-shadow:2px 2px 2px 2px black;
+}
+aside img{
+    display:inline-block;
+    vertical-align:top;
+}
+aside p{display:inline-block;
+    width:150px;
+    height:auto;
+    vertical-align:top;
+    margin-top:-10px;
+}
+footer{
+    background-color:greenyellow;
+    position:relative;
+    bottom:-30px;
+    border-radius:15px;
+    box-shadow: 0px 0px 15px black;
+}
+footer #div1, footer #div2, footer #div3{
+    display:inline-block;
+    width:270px;
+    vertical-align:top;
+    padding-left:5px;
+    border:1px solid gray;
+    margin-left:13px;
+    box-shadow:2px 2px 2px 2px #0b0b0c;
+    border-radius:10px;
+    margin-top:5px;
+}
+footer #div2{
+    height:203px;
+    margin-left:15px;
+}
+footer #div3{
+   
+    height:203px;
+    margin-left:15px;
+}
+footer #p1{
+    margin-left:10px;
+}
+form #cod{
+    margin-top:35px;
+}
+form #env{
+text-align:center;
+margin-left:400px;
+margin-top:25px;
+border-radius:5px;
+width:70px;
+height:25px;
+background-color:greenyellow;
+color:white;
+}
+form #mail, form #telephone{
+    margin-top:15px;
+}
+#prod{
+    width:600px;
+    margin-left:145px;
+    border:1px solid black;
+}
+aside p::first-line{
+    font-size: 25px;
+
+}
